@@ -22,3 +22,8 @@ add_executable(warmingup src/example1/warming_up.cpp )
 
 
 add_executable(example2 src/example2/actions.cpp)
+add_executable(example3 src/example3/complex.cpp)
+add_executable(example4 src/example4/numlist_4.cpp)
+add_executable(roman    src/roman_numerals/roman_numerals.cpp)
+add_executable(employee src/employee/employee.cpp src/employee/main.cpp)
+add_executable(annotation src/annotation/annotation.cpp)
