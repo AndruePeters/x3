@@ -19,3 +19,6 @@ target_compile_features(project_options INTERFACE cxx_std_17)
 
 find_package(Boost REQUIRED COMPONENTS )
 add_executable(warmingup src/example1/warming_up.cpp )
+
+
+add_executable(example2 src/example2/actions.cpp)
